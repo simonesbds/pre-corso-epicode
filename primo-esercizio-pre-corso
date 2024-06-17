@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di Presentazione</title>
+</head>
+<body>
+    <h1>La Mia Pagina di Presentazione</h1>
+    <img src="https://media.licdn.com/dms/image/C4E03AQEN9_NYQCyRRg/profile-displayphoto-shrink_200_200/0/1611926505197?e=1724284800&v=beta&t=nYTy6MzvWofpdEuk3V8Y-j9Wp6GsOzVp9JiszKXu0CU" alt="La Mia Immagine" width="150" height="150">
+    <h2 style="color: green">Hobbies e Interessi</h2>
+    <ul>
+        <li>Breakdance</li>
+        <li>Sport</li>
+        <li>Gaming</li>
+        <li>Epicode!</li>
+        <li>Computer e Informatica</li>
+    </ul>
+    <h2 style="color:red">Contatti</h2>
+    <ul>
+        <li><strong>Email:</strong> simonesaba.disciullo@gmail.com</li>
+        <li><strong>Telefono:</strong> 366 4918337</li>
+        <li><Strong>LinkedIn:</Strong> linkedin.com/in/simone-di-sciullo</li>
+        <li><strong>GitHub:</strong> github.com/simonesbds</li>
+    </ul>
+</body>
+</html>

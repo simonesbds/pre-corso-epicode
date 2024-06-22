@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di Registrazione</title>
+</head>
+<body>
+  <h1>Inserisci i tuoi dati</h1>
+  <form onsubmit="alert('Form inviato')">
+    <div>
+        <label>Nome:</label>
+        <input type="text" placeholder="Il tuo nome" />
+        <label>Cognome:</label>
+        <input type="text" placeholder="Il tuo cognome" />
+    </div>
+    <div>
+        <label>E-Mail:</label>
+        <input type="email" placeholder="La tua E-Mail" />
+        <label>Password:</label>
+        <input type="password" placeholder="La tua password" />
+    </div>
+    <div>
+        <label>Data di Nascita:</label>
+        <input type="date" />
+    </div>
+    <div>
+        <label>Telefono:</label>
+        <input type="number" placeholder="Il tuo numero di telefono" />
+    </div>
+    <h3>Seleziona i tuoi generi musicali preferiti!</h3>
+    <div>
+        <input type="checkbox" />
+        <label>Rock</label>
+    </div>
+    <div>
+        <input type="checkbox" />
+        <label>Pop</label>
+    </div>
+    <div>
+        <input type="checkbox" />
+        <label>Country</label>
+    </div>
+    <div>
+        <input type="checkbox" />
+        <label>Indie</label>
+    </div>
+    <div>
+        <label>Accetta termini e condizioni</label>
+        <input type="radio" />
+    </div>
+    <div>
+        <button type="submit">Invia registrazione</button>
+    </div>
+  </form>   
+</body>
+</html>

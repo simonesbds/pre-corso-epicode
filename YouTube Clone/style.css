@@ -91,7 +91,6 @@ body {
 }
 
 .video-thumbnail {
-    background-color: #fff;
     padding: 10px;
     display: flex;
     flex-direction: column;

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+#main {
+        width: calc(100% - 80px);
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+}
+
+#content {
+    height: calc(100% - 8vh);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p {
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+    cursor: pointer;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+    cursor: pointer;
+}
+
+#topbar-icons {
+    display: flex;
+    cursor: pointer;
+}
+
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.7em;
+}
+
+#search-btn {
+    padding: 0 0.8em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.video-thumbnail {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.channel-logo {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+.video-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-info {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+
+.video-info h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.video-info p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
